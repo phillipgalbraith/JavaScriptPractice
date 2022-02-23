@@ -1,6 +1,7 @@
 # JavaScriptPractice
 
 ## These functions demonstrate different problem solving methods or JavaScript methods
+
 ##### Memoization
 Add each value calculated by a function to an object.  Search for the input (as a key) before running any calculations. This avoids repeated processes.
 
@@ -51,5 +52,12 @@ function listLinker (a,s,d) {
     const nodeD = new linkedListNode(d)
     nodeA.refersTo = nodeS
     nodeS.refersTo = nodeD
-    return nodeA // expect output [a,s,d]     
+    return nodeA // expect output [a.valueAtNode,s.valueAtNode,d.valueAtNode]     
 }
+
+##### String.prototype.charCodeAt() String.fromCharCode()
+- charCodeAt() 122 is z, and if it's above 122 -= 26
+- fromCharCode() can take a series of codes
+
+#### Algorithms
+
